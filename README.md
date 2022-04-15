@@ -13,7 +13,7 @@ Determine which cat you are today and share with the whole chat:
 To download the repository and install dependencies, run the following commands:
 
 ```bash
-git clone git://github.com/xzeldon/cat_meme_generator_bot.git # replace [xzeldon] with your github username if you fork first.
+git clone git@github.com:xzeldon/cat_meme_generator_bot.git # replace [xzeldon] with your github username if you fork first.
 cd cat_meme_generator_bot
 npm install
 cp .env.sample .env # paste vk token to copied .env file
