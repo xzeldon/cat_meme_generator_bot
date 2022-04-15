@@ -1,0 +1,29 @@
+{
+  "name": "cat_meme_generator_bot",
+  "description": "What kind of cat are you today?",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "author": {
+    "name": "Timofey (xzeldon)",
+    "email": "contact@zeldon.ru",
+    "url": "https://zeldon.ru"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "homepage": "https://zeldon.ru",
+  "dependencies": {
+    "@vk-io/hear": "^1.1.0",
+    "dotenv": "^16.0.0",
+    "gm": "^1.23.1",
+    "tempy": "^2.0.0",
+    "undici": "^4.14.1",
+    "vk-io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
